@@ -15,5 +15,13 @@ public class GreetingTest {
 
     }
 
+    @Test
+    public void nullGreeting() throws Exception {
+        greeting = new Greeting();
+        assertEquals(greeting.greet(""),"Hello, my friend");
+
+
+    }
+
 
 }
