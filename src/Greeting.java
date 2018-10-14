@@ -1,11 +1,11 @@
 public class Greeting {
     public String greet(String name) {
-        String greeting;
+        String greeting = "Hello, ";
 
-        if (name == null) {
-            greeting = "Hello, my friend";
+        if (name == "") {
+            greeting = greeting +"my friend.";
         } else {
-            greeting = "Hello, " + name;
+            greeting = greeting + name + ".";
         }
 
         return greeting;

@@ -10,7 +10,7 @@ public class GreetingTest {
     @Test
     public void simpleGreeting() throws Exception {
         greeting = new Greeting();
-        assertEquals(greeting.greet("Bob"),"Hello, Bob");
+        assertEquals(greeting.greet("Bob"),"Hello, Bob.");
 
 
     }
@@ -18,7 +18,7 @@ public class GreetingTest {
     @Test
     public void nullGreeting() throws Exception {
         greeting = new Greeting();
-        assertEquals(greeting.greet(""),"Hello, my friend");
+        assertEquals(greeting.greet(""),"Hello, my friend.");
 
 
     }
